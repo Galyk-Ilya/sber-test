@@ -1,0 +1,6 @@
+CREATE TABLE LOG (
+    MESSAGE     VARCHAR2(1000),
+    TYPE        VARCHAR2(50),
+    "LEVEL"     VARCHAR2(10),
+    TIME        TIMESTAMP
+);

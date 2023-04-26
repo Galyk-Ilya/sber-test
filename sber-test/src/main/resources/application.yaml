@@ -1,0 +1,18 @@
+db:
+  driverClassName: org.postgresql.Driver
+  jdbcUrl:
+  username:
+  password:
+
+logging:
+  file:
+    name: sber-test.log
+  level:
+    root: info
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 80
